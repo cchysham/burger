@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/burger-logo-cafe-logo-restaurant-logo-burger-cartoon-85843172.jpg");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.main {
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: 40%;
+}

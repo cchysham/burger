@@ -1,0 +1,16 @@
+CREATE DATABASE burgers_db;
+USE burgers_db;
+
+
+/*ENDED UP USING SEQUELIZE FOR TABLE CREATION 
+
+
+
+CREATE TABLE burgers (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    burger_name VARCHAR(45) NOT NULL,
+    devoured BOOLEAN NOT NULL
+);
+
+ALTER TABLE burgers ALTER devoured SET DEFAULT false;
+*/
