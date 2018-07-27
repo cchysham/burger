@@ -4,33 +4,29 @@
 
 <div class="noteaten">
   <ol>
-  {{#each burgers}}
-    {{#unless devoured}}
+    {{#each burgers}} {{#unless devoured}}
     <div class="burgdiv">
       <li>
         <h3>{{burger_name}}</h3>
-	<button class="change-devoured" data-id="{{id}}">
-		{{#unless devoured}}EAT ME!{{/unless}}
-	</button>
-</li>
-      </div>
-    {{/unless}}
-  {{/each}}
-</ol>
+        <button class="change-devoured" data-id="{{id}}">
+          {{#unless devoured}}EAT ME!{{/unless}}
+        </button>
+      </li>
+    </div>
+    {{/unless}} {{/each}}
+  </ol>
 </div>
 
 
 <h2>Burgers that have been eaten!</h2>
 <div class="eaten">
   <ol>
-  {{#each burgers}}
-    {{#if devoured}}
-      <li>
-<h3>{{burger_name}}</h3>
-</li>
-    {{/if}}
-  {{/each}}
-</ol>
+    {{#each burgers}} {{#if devoured}}
+    <li>
+      <h3>{{burger_name}}</h3>
+    </li>
+    {{/if}} {{/each}}
+  </ol>
 </div>
 
 <h2>Add a Burger</h2>
